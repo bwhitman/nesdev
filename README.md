@@ -6,6 +6,11 @@ tests on NES / famicom dev on real hardware / keyboards
  build/nesasm keyboard.asm # assemble the asm to NES file
  cp keyboard.nes /Volumes/NO\ NAME/  # copy it to the Everdrive SD card
  diskutil unmount /Volumes/NO\ NAME/ # unmount the SD card
+
+ or
+
+ fceux keyboard.nes # to test in emulator (no keyboard support)
+
  ```
 
  Keyboard details: https://wiki.nesdev.com/w/index.php/Family_BASIC_Keyboard
